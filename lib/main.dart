@@ -1,17 +1,15 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:pokedex/home_screen.dart';
+import 'package:pokedex/src/pages/home_page.dart';
 
-void main(){
+void main() {
   runApp(Pokedex());
 }
 
 class Pokedex extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomeScreen(),
+      home: HomePage(),
     );
   }
 }
